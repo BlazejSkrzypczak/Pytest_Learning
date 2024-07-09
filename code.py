@@ -1,5 +1,4 @@
-numbers = [4, 2, 8]
-double = []
-for a in numbers:
-    double.append(a*2)
-print(f"{double}")
+friends = ["Rolf", "Bob", "Anna", "Pola", "Niko", "Sarah"]
+starts_with_S = [friend for friend in friends if friend.startswith("S")]
+
+print(starts_with_S)
