@@ -1,8 +1,5 @@
-local = {"Rolf", 'Bob'}
-abroad = {"Bob", "Ann"}
-
-both = local.intersection(abroad)
-movie = 'An'
-if movie in abroad:
-    print("YES")
-print(both)
+numbers = [4, 2, 8]
+double = []
+for a in numbers:
+    double.append(a*2)
+print(f"{double}")
